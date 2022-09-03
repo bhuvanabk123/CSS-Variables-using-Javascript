@@ -1,0 +1,47 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 5px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1 {
+    color: var(--base);
+}
+
+
+body {
+    text-align: center;
+
+}
+
+body {
+    background: #193549;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+.profile {
+    float: right;
+    padding-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.mail {
+    float: left;
+}
